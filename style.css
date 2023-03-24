@@ -1,0 +1,70 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+   box-shadow: 2px 2px 5px 4px rgb(32, 32, 32);
+}
+nav{
+    margin: 2vh;
+}
+nav h1{
+    text-align: center;
+    text-shadow: 4px 5px 3px gray ;
+}
+body{
+    overflow-y: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgb(163, 176, 253),grey) ;
+    background-repeat: no-repeat;
+}
+
+.container{
+    box-shadow: 2px 2px 5px 1px rgb(33, 73, 253) ;
+    max-width: 75vw;
+    background-color: rgb(71, 71, 71);
+    margin: auto;
+    height: 61vh;
+    overflow-y: auto;
+}
+ 
+.message{
+background-color: rgb(141, 140, 140);
+width: 24%;
+padding: 10px;
+margin: 10px 12px;
+border: 2px solid rgb(141, 140, 148);
+border-radius: 13px;
+}
+
+.left{
+    float: left;
+    clear: both;
+    }
+    .right{
+        float: right;
+        clear: both;
+    }
+
+    #send-container{
+        margin-top: 10px;
+        display: block;
+        margin: 1vh auto;
+       text-align: center;
+        width: 75vw;
+     }
+    #messageInp{
+        width: 90%;
+        border: 2px black solid;
+        border-radius: 6px;
+        height: 5vh;
+    }
+.btn
+{
+    cursor: pointer;
+    height: 5vh;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 6px;
+}
