@@ -3,7 +3,7 @@
 // socket-io , uses http also
 var http = require("http");
 var server = http.createServer();
-server.listen(7000);
+server.listen(7000 || process.env.PORT);
 
 const io = require('socket.io')(server, {
         cors: {
